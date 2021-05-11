@@ -1,0 +1,14 @@
+#avatarContainer {
+    width: 100%;
+    height: fit-content;
+}
+
+#avatarContainer > div {
+    background-color: var(--c10);
+}
+
+@media (max-width: 440px){
+    #avatarContainer {
+        flex-direction: column;
+    }
+}

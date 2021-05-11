@@ -1,0 +1,104 @@
+:root {
+    --c1: rgb(220, 20, 128);
+    --c2: rgb(255, 240, 40);
+    --c3: rgb(140, 180, 70);
+    --c4: rgb(0, 150, 220);
+    --c5: rgb(230, 30, 50);
+    --c5: rgb(230, 30, 50);
+    --c6: rgb(255, 160, 50);
+    --c7: rgb(40, 50, 120);
+    --c8: rgb(90, 160, 70);
+    --c9: rgb(35, 30, 45);
+    --c10: rgb(115,128, 150);
+}
+
+html {
+    color: white;
+    font-family: 'Roboto Slab', monospace;
+}
+
+body {
+    max-width: 45em;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--c9);
+}
+
+h1 {
+    font-family: 'Italiana', serif;
+    font-size: 5.1em;
+    line-height: 0;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    margin-top: 4em;
+    border-top: 1em solid var(--c10);
+    text-align: center;
+    color: var(--c10);
+}
+
+footer {
+    color: var(--c10);
+}
+
+footer a {
+    color: var(--c10);
+}
+
+footer a:hover {
+    color: var(--c4);
+}
+
+a {
+    color: var(--c4);
+}
+
+a:active {
+    color: var(--c1);
+}
+
+dd {
+    margin-bottom: 1em;
+}
+
+.narrowContainer {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flexFillWidth {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.flexFillWidth > div {
+    /* Makes elements fill the x-axis even without setting the width or adding content to the
+    elements. */
+    flex: 1;
+}
+
+.textContainer {
+    margin: 20px;
+}
+
+@media (max-width: 46em){
+    h1 {
+        font-size: 11vw;
+    }
+
+    body {
+        width: 100vw;
+        margin: 0;
+        max-width: unset;
+    }
+}
