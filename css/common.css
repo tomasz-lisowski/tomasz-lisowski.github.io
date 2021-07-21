@@ -14,7 +14,7 @@
 
 html {
     color: white;
-    font-family: 'Roboto Slab', monospace;
+    font-family: 'Mulish', sans-serif;
 }
 
 body {
@@ -28,8 +28,9 @@ body {
 h1 {
     font-family: 'Italiana', serif;
     font-size: 5.1em;
-    line-height: 0;
+    line-height: 1em;
     text-align: center;
+    margin: 28px 0;
 }
 
 img {
@@ -68,7 +69,21 @@ dd {
     margin-bottom: 1em;
 }
 
-.narrowContainer {
+#abstract {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 1.5em;
+}
+
+#projects {
+    margin-top: 4em;
+    font-size: 1.1em;
+}
+
+#projects h2 {
+    line-height: 0.8em;
+}
+
+.narrow {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -87,18 +102,20 @@ dd {
     flex: 1;
 }
 
-.textContainer {
-    margin: 20px;
-}
-
 @media (max-width: 46em){
     h1 {
         font-size: 11vw;
     }
 
     body {
-        width: 100vw;
+        width: 100%;
         margin: 0;
         max-width: unset;
+    }
+}
+
+@media (max-width: 34em){
+    h1 {
+        font-size: 22vw;
     }
 }

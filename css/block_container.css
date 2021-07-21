@@ -1,14 +1,18 @@
-#avatarContainer {
+.blockImg {
     width: 100%;
     height: fit-content;
 }
 
-#avatarContainer > div {
+.blockImg > div {
     background-color: var(--c10);
 }
 
-@media (max-width: 440px){
-    #avatarContainer {
+.blockText {
+    margin: 20px;
+}
+
+@media (max-width: 588px){
+    .blockImg {
         flex-direction: column;
     }
 }

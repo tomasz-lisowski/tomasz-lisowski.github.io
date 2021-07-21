@@ -1,0 +1,13 @@
+#containerColorBlock {
+    width: 100%;
+    height: 1em;
+}
+
+#containerColorBlock div:nth-child(1) { background-color: var(--c1); }
+#containerColorBlock div:nth-child(2) { background-color: var(--c2); }
+#containerColorBlock div:nth-child(3) { background-color: var(--c3); }
+#containerColorBlock div:nth-child(4) { background-color: var(--c4); }
+#containerColorBlock div:nth-child(5) { background-color: var(--c5); }
+#containerColorBlock div:nth-child(6) { background-color: var(--c6); }
+#containerColorBlock div:nth-child(7) { background-color: var(--c7); }
+#containerColorBlock div:nth-child(8) { background-color: var(--c8); }

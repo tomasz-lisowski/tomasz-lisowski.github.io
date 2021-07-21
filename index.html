@@ -5,16 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Tomasz Lisowski</title>
-    <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Mulish&family=Ubuntu+Condensed&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/banner_block.css">
-    <link rel="stylesheet" href="css/avatar_block.css">
+    <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/block_container.css">
 </head>
 
 <body>
     <header role="banner">
-        <div id="colorBlockContainer" class="flexFillWidth">
+        <div id="containerColorBlock" class="flexFillWidth">
             <div></div> <!-- 1 -->
             <div></div> <!-- 2 -->
             <div></div> <!-- 3 -->
@@ -26,21 +27,21 @@
         </div>
     </header>
     <main role="main">
-        <div class="narrowContainer">
+        <div class="narrow">
             <h1>Tomasz Lisowski</h1>
-            <div id="avatarContainer" class="flexFillWidth">
+            <div class="blockImg flexFillWidth">
                 <div>
                     <img src="https://avatars.githubusercontent.com/u/27139958" alt="Simple black
                     contours outlining a face on a white background.">
                 </div>
                 <div>
-                    <div class="textContainer">
+                    <div id="abstract" class="blockText">
                         <p>I'm a C programmer who approaches problems from first principles and
                             gives code style, documentation, and clarity the attention they deserve.</p>
                     </div>
                 </div>
             </div>
-            <div>
+            <div id="projects">
                 <h2>Some Projects</h2>
                 <dl>
                     <dt><a href="https://github.com/tomasz-lisowski/integer-java-virtual-machine"
@@ -65,7 +66,7 @@
     </main>
     <nav role="navigation"></nav>
     <footer role="contentinfo">
-        <div class="narrowContainer">
+        <div class="narrow">
             <div id="linkContainer" class="flexFillWidth">
                 <div>
                     <p>Copyright &#169; 2021 Tomasz Lisowski.<br>All Rights Reserved</p>
