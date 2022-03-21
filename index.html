@@ -1,82 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Tomasz Lisowski</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Mulish&family=Ubuntu+Condensed&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/banner.css">
-    <link rel="stylesheet" href="css/block_container.css">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Italiana&family=Mulish&family=Ubuntu+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/banner.css" />
+    <link rel="stylesheet" href="css/block_container.css" />
+  </head>
 
-<body>
+  <body>
     <header role="banner">
-        <div id="containerColorBlock" class="flexFillWidth">
-            <div></div> <!-- 1 -->
-            <div></div> <!-- 2 -->
-            <div></div> <!-- 3 -->
-            <div></div> <!-- 4 -->
-            <div></div> <!-- 5 -->
-            <div></div> <!-- 6 -->
-            <div></div> <!-- 7 -->
-            <div></div> <!-- 8 -->
-        </div>
+      <div id="containerColorBlock" class="flexFillWidth">
+        <div></div><!-- 1 -->
+        <div></div><!-- 2 -->
+        <div></div><!-- 3 -->
+        <div></div><!-- 4 -->
+        <div></div><!-- 5 -->
+        <div></div><!-- 6 -->
+        <div></div><!-- 7 -->
+        <div></div><!-- 8 -->
+      </div>
     </header>
     <main role="main">
-        <div class="narrow">
-            <h1>Tomasz Lisowski</h1>
-            <div class="blockImg flexFillWidth">
-                <div>
-                    <img src="https://avatars.githubusercontent.com/u/27139958" alt="Simple black
-                    contours outlining a face on a white background.">
-                </div>
-                <div>
-                    <div id="abstract" class="blockText">
-                        <p>I'm a C programmer who approaches problems from first principles and
-                            gives code style, documentation, and clarity the attention they deserve.</p>
-                    </div>
-                </div>
+      <div class="narrow">
+        <h1>Tomasz Lisowski</h1>
+        <div class="blockImg flexFillWidth">
+          <div>
+            <img
+              src="https://avatars.githubusercontent.com/u/27139958"
+              alt="My headshot."
+            />
+          </div>
+          <div>
+            <div id="abstract" class="blockText">
+              <p>
+                I'm a C programmer who approaches problems from first principles
+                and gives code style, documentation, and clarity the attention
+                they deserve.
+              </p>
             </div>
-            <div id="projects">
-                <h2>Some Projects</h2>
-                <dl>
-                    <dt><a href="https://github.com/tomasz-lisowski/integer-java-virtual-machine"
-                            target="_blank">Integer Java Virtual Machine</a>
-                    </dt>
-                    <dd>A virtual machine and a debugger (functionally similar to gdb) for running a
-                        subset of the standard Java bytecode.</dd>
-
-                    <dt><a href="https://github.com/tomasz-lisowski/sand-box-game" target="_blank">Sand Box Game</a>
-                    </dt>
-                    <dd>A version of the falling sand game which simulates density, states of
-                        matter, state transitions, and other forms of physics-based interaction.</dd>
-
-                    <dt><a href="https://github.com/erhant/spotisync" target="_blank">Spotisync</a>
-                    </dt>
-                    <dd>A way to play the same song on multiple devices logged into different
-                        accounts, at the same time (Spotify has since implemented this feature
-                        themselves).</dd>
-                </dl>
-            </div>
+          </div>
         </div>
+        <div id="projects">
+          <h2>Some Projects</h2>
+          <dl>
+            <dt>
+              <a
+                href="https://github.com/tomasz-lisowski/falling-sand-game"
+                target="_blank">Falling-Sand Game>
+              </a>
+            </dt>
+            <dd>
+              A version of the falling sand game which simulates density, states
+              of matter, state transitions, and other forms of physics-based
+              interaction.
+            </dd>
+
+            <dt>
+              <a
+                href="https://github.com/tomasz-lisowski/esolang-grta"
+                target="_blank">GRTA Esoteric Language
+              </a>
+            </dt>
+            <dd>
+              The main design goal for the language was to have absolutely no
+              jump instructions. It works by being able to move up/down along 1
+              of 4 lanes of execution.
+            </dd>
+
+            <dt>
+              <a
+                href="https://github.com/1935711/prod-kmriv"
+                target="_blank">KMRIV Demo
+              </a>
+            </dt>
+            <dd>
+              An x86 bootsector demo created for the Lovebyte 2022 demo party.
+              Sizecoded to 512 bytes in assembly.
+            </dd>
+
+            <dt>
+              <a
+                href="https://github.com/tomasz-lisowski/theme-ilk"
+                target="_blank">ILK VSCode Theme
+              </a>
+            </dt>
+            <dd>
+              Keeps a very concise set of colors, each with a precise semantic
+              significance, to avoid becoming a confusing rainbow.
+            </dd>
+
+            <dt>
+              <a
+                href="https://github.com/tomasz-lisowski/make-pal"
+                target="_blank">Platform Abstraction Layer for Make
+              </a>
+            </dt>
+            <dd>
+              Makes it very easy to write platform-independent makefiles by
+              providing an identical set of functions and defines across
+              operating systems.
+            </dd>
+          </dl>
+        </div>
+      </div>
     </main>
     <nav role="navigation"></nav>
     <footer role="contentinfo">
-        <div class="narrow">
-            <div id="linkContainer" class="flexFillWidth">
-                <div>
-                    <p>Copyright &#169; 2021 Tomasz Lisowski.<br>All Rights Reserved</p>
-                </div>
-                <div>
-                    <p><a href="https://github.com/tomasz-lisowski" target="_blank">Github</a></p>
-                </div>
-            </div>
+      <div class="narrow">
+        <div id="linkContainer" class="flexFillWidth">
+          <div>
+            <p>
+              Copyright &#169; 2021 Tomasz Lisowski.<br />All Rights Reserved
+            </p>
+          </div>
+          <div>
+            <p>
+              <a
+                href="https://github.com/tomasz-lisowski"
+                target="_blank">Github
+              </a>
+            </p>
+          </div>
         </div>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>
